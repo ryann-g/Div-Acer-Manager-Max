@@ -8,6 +8,9 @@
 
 **Div Acer Manager Max** is a feature-rich Linux GUI utility for Acer laptops powered by the incredible [Linuwu Sense](https://github.com/0x7375646F/Linuwu-Sense) drivers. It replicates and expands on Acer’s NitroSense and PredatorSense capabilities on Linux with full fan control, performance modes, battery optimization, backlight settings, and more — all wrapped in a modern Avalonia-based UI.
 
+> [!NOTE]
+> **About this fork** — my day-driver working copy for the Acer Nitro ANV15-41, used to test fan/daemon changes and contribute upstream. Main development lives at [PXDiv/Div-Acer-Manager-Max](https://github.com/PXDiv/Div-Acer-Manager-Max); please open issues and PRs there so fixes land for everyone.
+
 > [!CAUTION]
 > Project is under passive development.
 
@@ -16,6 +19,16 @@
 <h4 align="center">
 ⭐ Please star this repository to show support. It motivates me to make the project better for everyone
 </h4>  
+
+## Demo
+
+> [!TIP]
+> Recording guidelines: capture 10–20 s of the fan-control view spinning to auto mode, upload as GIF/WebM via GitHub user attachments, then replace the comment below. Quick capture on X11:
+> `ffmpeg -f x11grab -framerate 30 -i :0.0+0,0 -c:v libx264 -preset fast -crf 23 damx-demo.mp4`
+
+<!-- Replace with your recording:
+![DAMX fan control demo](https://github.com/user-attachments/assets/your-asset-hash)
+-->
 
 ## ✨ Features
 
